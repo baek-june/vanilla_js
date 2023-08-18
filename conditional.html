@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conditional</title>
+</head>
+<body>
+  <script>
+    let age = prompt("당신의 나이는 몇살입니까?");
+    let value = 0;
+    if (age<=7 || age>=70) {
+      value = 0;
+    } else if (age>=8 && age<=13) {
+      value = 450;
+    } else if (age>=14 && age<=19) {
+      value = 720;
+    } else {
+      value = 1200;
+    }
+    document.write("당신의 버스비는 "+value+"원 입니다.");
+  </script>
+</body>
+</html>

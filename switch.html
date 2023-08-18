@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Switch</title>
+</head>
+<body>
+  <script>
+    let d = new Date();
+    document.write(d + "<br />");
+    let day = d.getDay();
+    document.write(day + "<br />");
+    let dayName = "";
+    switch (
+      day
+    ) {
+      case 0:
+        dayName = "일요일";
+        break;
+      case 1:
+        dayName = "월요일";
+        break;
+      case 2:
+        dayName = "화요일";
+        break;
+      case 3:
+        dayName = "수요일";
+        break;
+      case 4:
+        dayName = "목요일";
+        break;
+      case 5:
+        dayName = "금요일";
+        break;
+      case 6:
+        dayName = "토요일";
+        break;
+      default:
+        dayName = "";
+        break;
+    }
+    document.write(dayName);
+  </script>
+</body>
+</html>

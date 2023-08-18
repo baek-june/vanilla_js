@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operator</title>
+  </head>
+  <body>
+    <script>
+      let y = 1;
+      let x = y;
+      x = x + y;
+      console.log(x);
+      x = x - y;
+      console.log(x);
+      x = 3;
+      y = 2;
+      x = x * y;
+      console.log(x);
+      x = x / y;
+      console.log(x);
+      x = x % y;
+      console.log(x);
+      console.log(+true);
+      console.log(+false);
+
+      let age = 18;
+      let isAdult = (age >= 18) ? true : false;
+      document.write(isAdult);
+
+      let point = 79;
+      let grade = (point>=90) ? "A" : (point>=80) ? "B" : "C";
+      document.write(grade);
+    </script>
+  </body>
+</html>

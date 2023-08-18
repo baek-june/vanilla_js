@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conditional2</title>
+</head>
+<body>
+  <script>
+    let age = 17;
+    let isAdult = false;
+
+    if (age > 18) {
+      isAdult = true;
+      console.log(isAdult);
+    }
+
+    age = 19;
+    if (age > 18) {
+      isAdult = true;
+      console.log(isAdult);
+    } else {
+      console.log(isAdult);
+    }
+
+    let hour = 22;
+    if (hour < 10) {
+      console.log("Good Morning!");
+    } else if (hour < 18) {
+      console.log("Good Afternoon!");
+    } else if (hour < 21) {
+      console.log("Good Evening!");
+    } else {
+      console.log("Good Night!");
+    }
+  </script>
+</body>
+</html>
