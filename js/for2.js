@@ -1,14 +1,10 @@
-let productList = [
+let productList= [
   {
     name : "솔의 눈",
     price : 700,
   },
   {
     name : "커피",
-    price : 700,
-  },
-  {
-    name : "솔의 눈",
     price : 700,
   },
   {
@@ -37,4 +33,6 @@ for (let i=0; i<len; i++) {
     outputList.push(productList[i]);
   }
 }
-console.log(outputList);
+for (const output of outputList) {
+  console.log(output["name"]);
+}
